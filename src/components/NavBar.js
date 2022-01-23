@@ -1,9 +1,7 @@
-
-
 export const NavBar = () => {
 
   return (
-    
+    <></>
   );
 
 };
