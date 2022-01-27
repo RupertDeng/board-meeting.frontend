@@ -1,6 +1,6 @@
 import {useRef} from 'react';
 
-export const Board = (socket, boardWidth, boardHeight, lineColor, lineWidth, lineStyle) => {
+export const Board = (drawThickness, drawColor, drawStyle, eraserOn) => {
 
   const canvasRef = useRef(null);
 
